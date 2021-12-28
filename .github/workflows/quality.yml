@@ -33,7 +33,6 @@ jobs:
       - name: Install dependencies
         run: |
           pip install --upgrade virtualenv
-          pip install "distutils<60"
           pip install tox
       - name: Run tests
         env:
