@@ -33,6 +33,7 @@ jobs:
       - name: Install dependencies
         run: |
           pip install --upgrade virtualenv
+          pip install setuptools==59.5.0
           pip install tox
       - name: Run tests
         env:
