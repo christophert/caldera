@@ -2,6 +2,7 @@
 source =
     .
 omit =
+    ./*rep*
     *tests*
     *.tox*
     *venv*
